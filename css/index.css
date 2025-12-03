@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{
+    height: 150px;
+    width: 150px;
+}
+
+.logo img{
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+}
+.header{
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+ul li{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.img1{
+    height: 80vh;
+    position: relative;
+    z-index: 1;
+}
+.img1 img{
+   height: 100%;
+   width: 100%;
+}
+
+.galery{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 60px;
+    right: 40%;
+    top: 40%;
+}
+
+.yazi1{
+    padding: 50px;
+    display: flex;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    padding: 60px;
+    line-height: 30px;
+}
+
+
+.allImg{
+    position: relative;
+    cursor: pointer;
+    
+}
+.allImg:hover{
+    opacity: .8;
+}
+.img2 img{
+    padding: 40px;
+    height: 350px;
+    width: 300px;
+    position:absolute;
+    left: 100px;
+
+}
+
+.img3 img{
+    padding: 40px;
+    height: 350px;
+    width: 300px;
+    position: absolute;
+    left: 350px;
+}
+.img4 img{
+    padding: 40px;
+    height: 350px;
+    width: 300px;
+    position: absolute;
+    left: 600px;
+}
+.img5 img{
+    padding: 40px;
+    height: 350px;
+    width: 300px;
+    position: absolute;
+    left: 850px;
+}
+.img6 img{
+    padding: 40px;
+    height: 350px;
+    width: 300px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+.img7 img{
+    padding: 40px;
+    height: 350px;
+    width: 300px;
+    position: absolute;
+    top: 300px;
+    left: 350px;
+}
+.img8 img{
+    padding: 40px;
+    height: 350px;
+    width: 300px;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+.img9 img{
+    padding: 40px;
+    height: 350px;
+    width: 300px;
+    position: absolute;
+    top: 300px;
+    left: 850px;
+}
